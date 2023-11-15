@@ -1,0 +1,246 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+header{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    height: 60px;
+
+}
+
+.head span{
+
+    color: rgb(255, 255, 255);
+
+    font-family: sans-serif;
+
+    font-size:23px;
+
+}
+
+body{
+
+    overflow-x: hidden;
+
+    background-image: url(home.png.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: 110%;
+
+}
+
+.head{
+
+    margin-top: 17px;
+
+    font-family: sans-serif;
+
+    font-weight: bold;
+
+    padding-left: 50px;
+
+    color: rgb(5, 25, 70);
+
+}
+
+p{
+
+    display: flex;
+
+    justify-content: left;
+
+    position: absolute;
+
+    margin-right: 10px;
+
+}
+
+
+
+
+
+nav li{
+
+    list-style: none;
+
+    padding: 10px 20px;
+
+    margin-left: 5px;
+
+    padding-right: 150px;
+
+    
+
+}
+
+nav ul{
+
+    display: flex;
+
+    margin-top: 15px;
+
+}
+
+li a{
+
+    margin-bottom: 300px;
+
+    color: white;
+
+    font-family: sans-serif;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+nav li a:hover{
+
+    border-bottom: 3px solid #7597de;
+
+}
+
+h3{
+
+    font-family: sans-serif;
+
+    margin-top: 8%;
+
+    margin-left: 3%;
+
+    font-size: 40px;
+
+    justify-content: left;
+
+    display: flex;
+
+    color: rgb(241, 238, 255);
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.title-about{
+
+    font-family: sans-serif;
+
+    margin-right: 20px;
+
+    left: 600px;
+
+    position: relative;
+
+    margin-top: 40px;
+
+    font-weight: bold;
+
+    font-size: 25px;
+
+    color: rgb(255, 255, 255);
+
+}
+
+h4{
+
+    border-bottom: 5px solid white;
+
+    width: 74px;
+
+    border-color: white;
+
+}
+
+.name{
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+#About{
+
+    background: linear-gradient(to bottom,#190482, #3f4249);
+
+    padding-bottom: 210px;
+
+    margin-bottom: 0;
+
+}
+
+.me{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-left: 5%;
+
+    margin-top: 5%;
+
+    margin-bottom: 5%;
+
+}
+
+.me img{
+
+    margin-left: 20px;
+
+}
+
+.me p{
+
+    margin-left: 30%;
+
+    margin-top: 3px;
+
+    font-size: 15px;
+
+    font-family: sans-serif;
+
+}
+
+.footer{
+
+    background-color: rgb(255, 255, 255);
+
+    height: 70px;
+
+    color: rgb(0, 0, 0);
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    font-family: sans-serif;
+
+    padding: 0 45%;
+
+    margin: 0;
+
+}
+
+.logo{
+
+    width: 100%;
+
+    font-size: 40px;
+
+    margin-left: 47%;
+
+    justify-content: center;
+
+}
+
